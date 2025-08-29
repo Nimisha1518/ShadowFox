@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nimisha Sharma • Portfolio</title>
+  <meta name="description" content="Portfolio of Nimisha Sharma – B.Tech CSE (AI/ML), Front‑end & UI/UX. Projects, skills, resume & contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== NAV ===== -->
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span>Nimisha Sharma</span>
+      </a>
+      <div class="navlinks" role="menubar" aria-label="Section links">
+        <a role="menuitem" href="#about">About</a>
+        <a role="menuitem" href="#skills">Skills</a>
+        <a role="menuitem" href="#projects">Projects</a>
+        <a role="menuitem" href="#resume">Resume</a>
+        <a role="menuitem" href="#contact" class="nav-cta">Contact</a>
+      </div>
+      <button class="btn menu-btn" aria-label="Open menu" style="display:none" onclick="toggleMenu()">
+        <span class="icon" aria-hidden="true"></span>
+        Menu
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header id="home" class="hero" role="banner">
+    <div class="container">
+      <div>
+        <span class="pill" aria-label="Tagline"><span class="icon" aria-hidden="true"></span> CSE • AI/ML • UI/UX • Front‑end</span>
+        <h1 class="title">Innovating at the intersection of <span style="background:linear-gradient(90deg,var(--brand),var(--brand-2)); -webkit-background-clip:text; background-clip:text; color:transparent">Design & Code</span>.</h1>
+        <p class="subtitle">I’m <strong>Nimisha Sharma</strong> — a B.Tech CSE student (2023–2027) passionate about building elegant, accessible web experiences and exploring AI/ML. CGPA: 8.42.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects" aria-label="View projects"><span class="icon" aria-hidden="true"></span> View Projects</a>
+          <a class="btn" href="#resume" aria-label="Jump to resume"><span class="icon" aria-hidden="true"></span> Resume</a>
+          <a class="btn" href="https://www.linkedin.com/in/nimisha-sharma-738773287" target="_blank" rel="noopener" aria-label="LinkedIn profile"><span class="icon" aria-hidden="true"></span> LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb one"></div>
+        <div class="orb two"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <p class="section-sub">Curious builder who loves clean UIs, solid fundamentals and thoughtful experiences.</p>
+      <div class="grid">
+        <article class="about-card reveal" aria-labelledby="about-edu">
+          <h3 id="about-edu">Education</h3>
+          <ul class="list">
+            <li><strong>B.Tech – Computer Science & Engineering</strong>, United College of Engineering & Research, Prayagraj (2023–2027). Specialization: AI & ML. <strong>CGPA: 8.42</strong>.</li>
+          </ul>
+        </article>
+        <article class="about-card reveal" aria-labelledby="about-focus">
+          <h3 id="about-focus">Focus</h3>
+          <ul class="list">
+            <li>Building robust, scalable and delightful web apps.</li>
+            <li>Exploring AI/ML, data science and human‑centered design.</li>
+            <li>Collaborative problem solving and rapid learning.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">A snapshot of the tools and concepts I use most.</p>
+      <div class="badges" aria-label="Skills list">
+        <span class="badge">C++</span>
+        <span class="badge">Java</span>
+        <span class="badge">Python</span>
+        <span class="badge">Data Structures</span>
+        <span class="badge">Algorithms</span>
+        <span class="badge">Problem Solving</span>
+        <span class="badge alt">HTML</span>
+        <span class="badge alt">CSS</span>
+        <span class="badge alt">JavaScript</span>
+        <span class="badge">React.js</span>
+        <span class="badge">UI/UX (Figma)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Selected Projects</h2>
+      <p class="section-sub">Hands‑on builds that blend functionality, performance and design.</p>
+
+      <div class="cards">
+        <!-- Project 1 -->
+        <article class="card reveal">
+          <div class="card-media">
+            <img src="Steganography.jpg" alt="Steganography project screenshot">
+            </div>
+          <div class="card-body">
+            <h3>Steganography by Python Programming</h3>
+            <p>Developed a robust steganography tool using <strong>Python</strong> with <em>OpenCV, Tkinter, PIL</em> and standard libraries; demonstrates image I/O and UI plumbing for practical data‑hiding.</p>
+            <a class="btn cta" href="https://github.com/" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card reveal">
+          <div class="card-media">
+            <img src="Designer.jpg" alt="UI UX design preview">
+            </div>
+          <div class="card-body">
+            <h3>UI/UX Design Gallery</h3>
+            <p>Responsive buttons, landing page concepts and a sunny weather app icon. Designed in <strong>Figma</strong> with an emphasis on clarity and visual rhythm.</p>
+            <a class="btn cta" href="https://www.figma.com" target="_blank" rel="noopener">Explore Figma Designs</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section id="resume" class="resume">
+    <div class="container">
+      <h2 class="section-title">Resume</h2>
+      <p class="section-sub">Experience, training and leadership.</p>
+
+      <div class="grid">
+        <div class="about-card reveal">
+          <h3>Experience</h3>
+          <div class="timeline" aria-label="Experience timeline">
+            <div class="tl-item">
+              <strong>Cognifyz Technologies — UI/UX Intern</strong>
+              <div>2025</div>
+              <div class="muted">Contributed user‑centric design assets and workflows.</div>
+            </div>
+            <div class="tl-item">
+              <strong>Codsoft — C++ Programming Intern</strong>
+              <div>2024</div>
+              <div class="muted">Solved practical coding challenges and optimized solutions.</div>
+            </div>
+            <div class="tl-item">
+              <strong>NSS Member, UCER</strong>
+              <div>2025</div>
+              <div class="muted">Community service initiatives; teamwork & leadership.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card reveal">
+          <h3>Training & Certifications</h3>
+          <ul class="list">
+            <li><strong>Python for Data Science</strong> — UCER (Aug 2024)</li>
+            <li><strong>R for Data Science</strong> — LinkedIn Learning (2024)</li>
+          </ul>
+          <p style="margin-top:10px">
+            Full resume details available on the portfolio page.
+          </p>
+          <a class="btn" href="https://nimisha-sharma-pbqze0z.gamma.site/" target="_blank" rel="noopener">Open Online Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">Let’s collaborate or chat about your next idea.</p>
+
+      <div class="grid">
+        <section id="contact">
+  <h2 class="section-title">Contact Me</h2>
+  <form id="contact-form" class="about-card" aria-label="Contact form" onsubmit="submitForm(event)">
+    <label for="name">Name</label>
+    <input id="name" name="name" autocomplete="name" required />
+
+    <label for="email">Email</label>
+    <input id="email" name="_replyto" type="email" autocomplete="email" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button id="contact-submit" class="btn primary" type="submit" aria-label="Send message">Send</button>
+
+    <!-- Status message -->
+    <div id="form-status" role="status" aria-live="polite" style="margin-top:12px"></div>
+  </form>
+</section>
+
+        <aside class="about-card" aria-label="Direct contacts">
+          <h3>Direct</h3>
+          <p><strong>Email:</strong> <a href="mailto:nimishas899@gmail.com">nimishas899@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+916392703978">+91 63927 03978</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nimisha-sharma-738773287" target="_blank" rel="noopener">/in/nimisha-sharma-738773287</a></p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px">
+      <div>© <span id="year"></span> Nimisha Sharma</div>
+      <div>
+        <a class="btn" href="#home" aria-label="Back to top"><span class="icon" aria-hidden="true"></span> Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
